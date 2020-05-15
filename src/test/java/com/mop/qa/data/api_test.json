@@ -1,0 +1,71 @@
+{	
+    "GetCountryCodes": {
+        "baseURL": "https://digitalapi.auspost.com.au/",
+        "path": "postage/country.json",
+        "payloadPath": "No",
+        "payload": "No",
+        "authorization": "No",
+        "authType": "",
+        "headers": "No",
+        "headerParameters":
+                            {},
+        "queryParam": "No",
+        "queryParameters":
+                        {},
+        "customPath": "No",
+        "customPathValue":
+                        {},
+        "contentType": "",
+        "encodedParameters":
+                            {}
+    },
+
+    "GetServices": {
+        "baseURL": "https://digitalapi.auspost.com.au/",
+        "path": "postage/parcel/international/service.json",
+        "payloadPath": "No",
+        "payload": "No",
+        "authorization": "No",
+        "authType": "",
+        "headers": "No",
+        "headerParameters":
+                            {},
+        "queryParam": "Yes",
+        "queryParameters":
+                        {
+                            "country-code":"NZ",
+                            "weight":"1.0"
+                        },
+        "customPath": "No",
+        "customPathValue":
+                        {},
+        "contentType": "",
+        "encodedParameters":
+                            {}
+    },
+
+    "GetDeliveryPrice": {
+        "baseURL": "https://digitalapi.auspost.com.au/",
+        "path": "postage/parcel/international/service.json",
+        "payloadPath": "No",
+        "payload": "No",
+        "authorization": "No",
+        "authType": "",
+        "headers": "No",
+        "headerParameters":
+                            {},
+        "queryParam": "Yes",
+        "queryParameters":
+                        {
+                            "country-code":"NZ",
+                            "weight":"1.0",
+                            "service_code":"INT_PARCEL_STD_OWN_PACKAGING"
+                        },
+        "customPath": "No",
+        "customPathValue":
+                        {},
+        "contentType": "",
+        "encodedParameters":
+                            {}
+    }
+}
