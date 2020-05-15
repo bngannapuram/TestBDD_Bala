@@ -33,10 +33,10 @@ Testcases:
 				|- RunCakesTest		// collectively executes the feature files and creates a BDD report
             |- com.mop.qa.Util
                 |- Util				// Implementation of generic utilities
-|- ReportGenerator						// BDD Cucumber HTML Reports
-|- data.properties						// Has info related to project data
-|- DataSheet.xls						// Input data for test cases (Framework Extension)
-|- TestRunnerBDD.xls					// TAG bases test case execution (Framework Extension)
+|- ReportGenerator					// BDD Cucumber HTML Reports
+|- data.properties					// Has info related to project data
+|- DataSheet.xls					// Input data for test cases (Framework Extension)
+|- TestRunnerBDD.xls				// TAG bases test case execution (Framework Extension)
 
 # Starting point of execution
 
