@@ -9,5 +9,5 @@ Scenario Outline: Calculate shipping cost
  Examples:
      | country_code | weight | service_code                 |
      | NZ           | 1.5    | INT_PARCEL_STD_OWN_PACKAGING |
-     | GB           | 5.0    | Non-resident for full year   |
-     | MY           | 2.0    | Part-year resident           |
+     | GB           | 5.0    | INT_PARCEL_STD_OWN_PACKAGING |
+     | MY           | 2.0    | INT_PARCEL_STD_OWN_PACKAGING |
