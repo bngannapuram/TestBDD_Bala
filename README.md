@@ -40,7 +40,7 @@ Testcases:
 
 # Starting point of execution
 
-The ExecuteTest class is used to trigger the execution of the suite (ExecuteTest.java)
+The **ExecuteTest** class is used to trigger the execution of the suite, which calls TestRunner.featureList() from **RunCakesTest** class based on the **TAGS** set in TestRunnerBDD.xls file an cucumber starts its execution reading the feature files.
 
 **Note:
 Issue observed in response for GetDeliveryRates API (postman screenshots shared)
